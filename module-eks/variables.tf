@@ -95,3 +95,10 @@ variable "repository_name" {
 
 variable "domain-name" {}
 variable "email" {}
+
+variable "aws_region" {
+  description = "AWS region for the deployment"
+  type        = string
+  default     = "us-east-1"
+
+}
