@@ -1,5 +1,5 @@
 output "eks_cluster_name" {
-  description = "EKS cluster name from the eks-deployment module"
+  description = "EKS cluster name from the eks_deployment module"
   value       = module.eks_deployment.cluster_name
 }
 
